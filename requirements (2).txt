@@ -5,5 +5,5 @@ plotly
 nltk
 autoviz
 sumy
-summarizer
-tokenizer
+summarizers
+tokenizers
