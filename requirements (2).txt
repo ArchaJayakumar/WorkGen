@@ -7,3 +7,4 @@ autoviz
 sumy
 summarizers
 tokenizers
+punkt
