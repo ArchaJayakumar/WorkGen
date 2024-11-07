@@ -1,0 +1,11 @@
+•	Streamlit: For building the interactive web application and visualizing the data.
+•	React: For creating the landing page and front-end interface.
+•	Pandas: For data manipulation and analysis.
+•	Plotly: For creating interactive visualizations (Bar, Pie, Bubble, and Donut charts).
+•	Matplotlib: For generating static visualizations.
+•	NLTK: For text analysis and report generation.
+•	AutoViz: For performing automated Exploratory Data Analysis (EDA).
+•	Sumy: For text summarization and generating concise reports.
+•	MongoDB: For storing employee data (if applicable).
+•	Python: Core language for backend logic and data processing.
+•	Excel/CSV Files: Data input format for the application.
