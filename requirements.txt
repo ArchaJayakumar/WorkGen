@@ -1,0 +1,11 @@
+streamlit
+matplotlib
+pillow
+pandas
+plotly
+nltk
+autoviz
+sumy
+summarizers
+tokenizers
+punkt
