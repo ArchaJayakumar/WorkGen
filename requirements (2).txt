@@ -1,5 +1,6 @@
 streamlit
-matplotlib==3.7.1
+matplotlib
+pillow
 pandas
 plotly
 nltk
