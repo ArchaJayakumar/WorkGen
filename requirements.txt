@@ -8,3 +8,4 @@ autoviz
 sumy
 summarizers
 tokenizers
+IPython
