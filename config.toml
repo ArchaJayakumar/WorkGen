@@ -1,0 +1,9 @@
+# .streamlit/config.toml
+
+[server]
+headless = true
+port = $PORT
+enableCORS = false
+
+[theme]
+base = "light"
