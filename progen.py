@@ -6,7 +6,6 @@ from autoviz.AutoViz_Class import AutoViz_Class
 
 st.set_page_config(page_title="WorkGEN", layout="centered")
 
-# Initialize session states
 if "page" not in st.session_state:
     st.session_state.page = "landing"
 if "df" not in st.session_state:
@@ -132,7 +131,6 @@ def visualization_and_text_gen():
             st.plotly_chart(fig)
             st.session_state.generated_charts.add(chart_id)
 
-            # Generate insight
             insight_text = generate_insight_for_bar_chart(df, x_axis, y_axis)
             st.write(insight_text)
             
@@ -145,11 +143,9 @@ def visualization_and_text_gen():
             st.plotly_chart(fig)
             st.session_state.generated_charts.add(chart_id)
 
-            # Generate insight
             insight_text = generate_insight_for_pie_chart(df, categorical_col)
             st.write(insight_text)
         
-    # Display and allow report download
     if st.session_state.report_content:
         st.write("### Generated Text Report")
         for report in st.session_state.report_content:
